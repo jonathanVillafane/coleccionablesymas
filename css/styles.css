@@ -1,7 +1,7 @@
 *{
     font-family: 'Lucida Sans';
 }
-//body{background-color: blueviolet;}
+/*body{background-color: blueviolet;}*/
 h1{
     text-align: center;
     font-weight: bolder;
@@ -44,11 +44,20 @@ img{
 }
 
 footer{
-    background-color: #E0252A;
-    width: ;
+    background-color: #09b8b8;
+    width: 1000px ;
     padding: 10px;
 
 }
+/*He añadido algunos estilos en el div de la caja de texto
+y he cambiado de color en footer*/
+
+.boxText{
+    background-color: #8acac0;
+    padding: 1em;
+    margin: 1em;
+}
+
 p > footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
