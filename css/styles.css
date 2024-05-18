@@ -1,7 +1,8 @@
-*{
-    font-family: 'Lucida Sans';
-}
+
 /*body{background-color: blueviolet;}*/
+*{
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
 h1{
     text-align: center;
     font-weight: bolder;
@@ -13,23 +14,19 @@ h2{
     text-align: center;
     margin: 50px;
 }
-a{
-    color: black;
-    background-color: #E0252A;
+/* Navegador - Estilos */
+.logonav{
+    width: 60px;
+    height: 60px;
+}
+a[class ="nav-link active"]{
     font-weight: bolder;
-    font-size: larger;
+}
+
+a[class="redes"]{
     text-decoration: none;
-    padding: 15px;
-    border-radius: 15px;
 }
-a:hover{
-    box-shadow: inset -3px -3px #4b4242 ;
-}
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+/* Sliders */
 
 img{
     width: 50vh;
@@ -43,8 +40,9 @@ img{
     justify-self: center;
 }
 
+/* Pie de la página */
 footer{
-    background-color: #09b8b8;
+    background-color:#09b8b8 ;
     padding: 10px;
 
 }
