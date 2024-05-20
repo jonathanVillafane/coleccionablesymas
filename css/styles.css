@@ -1,7 +1,8 @@
-*{
-    font-family: 'Lucida Sans';
-}
 
+/*body{background-color: blueviolet;}*/
+*{
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
 div.sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -10,9 +11,6 @@ div.sticky {
   padding: 50px;
   font-size: 20px;
 }
-
-
-/* body{background-color: blueviolet;} */
 h1{
     text-align: center;
     font-weight: bolder;
@@ -24,23 +22,19 @@ h2{
     text-align: center;
     margin: 50px;
 }
-a{
-    color: black;
-    background-color: #E0252A;
+/* Navegador - Estilos */
+.logonav{
+    width: 60px;
+    height: 60px;
+}
+a[class ="nav-link active"]{
     font-weight: bolder;
-    font-size: larger;
+}
+
+a[class="redes"]{
     text-decoration: none;
-    padding: 15px;
-    border-radius: 15px;
 }
-a:hover{
-    box-shadow: inset -3px -3px #4b4242 ;
-}
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+/* Sliders */
 
 img{
     width: 50vh;
@@ -54,12 +48,21 @@ img{
     justify-self: center;
 }
 
+/* Pie de la página */
 footer{
-    background-color: #25b7e0;
-    width: 90%;
+    background-color:#09b8b8;
+    text-align: center;
     padding: 10px;
-
 }
+/*He añadido algunos estilos en el div de la caja de texto
+y he cambiado de color en footer*/
+
+.boxText{
+    background-color: #8acac0;
+    padding: 1em;
+    margin: 1em;
+}
+
 p > footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
