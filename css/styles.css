@@ -10,10 +10,15 @@ h1{
     background-color: #4ec2b4;
     padding: 30px;
 }
-h2{
-    text-align: center;
-    margin: 50px;
+
+/* Navegador - Título */
+.nav-brand{
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
 }
+
 /* Navegador - Estilos */
 .logonav{
     width: 60px;
@@ -26,41 +31,17 @@ a[class ="nav-link active"]{
 a[class="redes"]{
     text-decoration: none;
 }
+
+.nav-item:hover{
+    background-color: cadetblue;
+}
+
 /* Sliders */
 
 img{
     width: 50vh;
     height: 50vh;
     margin: 2em;
-}
-
-.image{
-    display: flex;
-    justify-content: center;
-    justify-self: center;
-}
-
-/* Pie de la página */
-footer{
-    background-color:#09b8b8 ;
-    padding: 10px;
-
-}
-/*He añadido algunos estilos en el div de la caja de texto
-y he cambiado de color en footer*/
-
-.boxText{
-    background-color: #8acac0;
-    padding: 1em;
-    margin: 1em;
-}
-
-p > footer {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: lighter;
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
 }
 .slider-container {
     display: flex;
@@ -77,3 +58,28 @@ p > footer {
     scroll-snap-align: center;
 
   }
+/* Caja de texto */
+.cajaTexto{
+    background-color: #8acac0;
+    padding: 1em;
+    margin: 1em;
+}
+
+/* Pie de la página */
+footer{
+    /* background-color: #25b7e0;
+    width: 90%; */
+    background-color:#09b8b8;
+    padding: 10px;
+    text-align: center;
+}
+/*He añadido algunos estilos en el div de la caja de texto
+y he cambiado de color en footer*/
+
+p > footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
