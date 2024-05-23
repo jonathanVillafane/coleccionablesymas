@@ -60,7 +60,9 @@ img{
   }
   
   .slider-container img {
-    flex: 0 0 100%;
+    /*flex: 0 0 100%;*/
+    flex: 1 0 auto;
+    margin: 0 50px;
     width: 100%;
     object-fit: cover;
     scroll-snap-align: center;
