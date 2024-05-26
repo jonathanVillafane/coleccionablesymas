@@ -10,7 +10,11 @@
   <title>TCG gamu!</title>
   
   <!--Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384- QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous">
   <!--Bootstrap - Iconos y logos-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
@@ -19,13 +23,38 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 <body>
   <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <!-- Bootstrap - Para los popovers -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous">
+</script>
+<!-- Bootstrap - Para los popovers -->
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+crossorigin="anonymous">
+</script>
+<header>
+  <nav class="navbar navbar-expand-md fixed-top"
+  style="background-color: #e3f2fd">
+  <div class="container fluid">
+    <!-- Logo de prueba con Bootstrap-->
+    <a class="nav-brand" href="#">
+      <img class="logonav" src="logos/tcgCard.png" alt="logoimg">
+      <span class="text-warning">TCG Gamu!</span>
+    </a>
+    <!-- Botón del menú -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    data-bs-target="#menu" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   <header>
     <nav class="navbar navbar-expand-md fixed-top navbar-dark p-3" style="background-color: #105586">
       <div class="container fluid">
@@ -214,3 +243,216 @@
   </footer> 
 </body>
 </html>
+  <!-- Elementos del menú colapsable responsivos -->
+  <div class="collapse navbar-collapse" id="menu">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page"
+        href="#">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#quienesomos">¿Quienes omos?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#catalogo">Catálogo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contacto">Contacto</a>
+      </li>
+    </ul>
+    <!-- Enlaces de redes sociales -->
+    <hr>
+    <div>
+      <ul
+      class="navbar-nav d-md-none flex-row flex-wrap justify-space-around">
+      <li class="nav-item col-6 row-cols-md-6 col-sm-3 p-3">
+        <i class="bi bi-twitter"></i>
+        <a href="#" class="redes">Twitter</a>
+      </li>
+      <li class="nav-item col-6 row-cols-md-6 col-sm-3 p-3">
+        <i class="bi bi-facebook"></i>
+        <a href="#" class="redes">Facebook</a>
+      </li>
+      <li class="nav-item col-6 row-cols-md-6 col-sm-3 p-3">
+        <i class="bi bi-instagram"></i>
+        <a href="#" class="redes">Instagram</a>
+      </li>
+      <li class="nav-item col-6 row-cols-md-6 col-sm-3 p-3">
+        <i class="bi bi-whatsapp"></i>
+        <a href="#" class="redes">WhatsApp</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+</nav>
+</header>
+<main>
+  <div class="container">
+    <section id="inicio">
+      <!-- <h1>TCG Gamu!</h1> -->
+      <p>Bienvenidos a nuestra tienda online de carta nipon</p>
+      <div class="cajaTexto">
+        <p>
+          ¡Bienvenido a nuestro mundo de cartas coleccionables, donde la
+          emoción y la nostalgia se encuentran en cada paquete! En nuestro
+          sitio web, encontrarás un tesoro de cartas coleccionables de todas
+          las épocas y géneros, desde clásicos del pasado hasta las últimas
+          ediciones de tus juegos favoritos.
+          Sumérgete en nuestra amplia selección, donde cada carta cuenta una
+          historia y despierta la pasión del coleccionista dentro de ti.
+          Desde cartas de Pokémon y Yu-Gi-Oh! hasta Magic: The Gathering y
+          mucho más, tenemos algo para cada tipo de coleccionista, ya seas
+          un novato en busca de su primera adquisición o un veterano
+          buscando piezas únicas para completar tu colección.
+          Navega por nuestras categorías cuidadosamente organizadas, explora
+          nuestras ofertas especiales y descubre joyas ocultas que harán
+          latir más rápido tu corazón coleccionista. Además, nuestro equipo
+          está aquí para brindarte asistencia personalizada y responder a
+          todas tus preguntas, para que tu experiencia de compra sea lo más
+          fluida y satisfactoria posible.
+          ¿Estás listo para comenzar tu viaje en el emocionante mundo de las
+          cartas coleccionables? ¡Explora nuestro sitio web y haz realidad
+          tus sueños de coleccionismo hoy mismo!
+        </p>
+      </div>
+    </section>
+    <section id="quienesomos">
+      <h1>Quienes Somos</h1>
+      <p>
+        "En TCG Gamu!, somos más que simplemente vendedores de cartas; somos
+        apasionados coleccionistas que comprendemos el verdadero valor de
+        cada pieza en tu colección. Con años de experiencia en el mundo del
+        coleccionismo, hemos reunido un equipo dedicado que comparte tu amor
+        por las cartas coleccionables en todas sus formas.
+        Nuestra misión es proporcionarte no solo un lugar donde puedas
+        encontrar esas cartas que tanto deseas, sino también una comunidad
+        donde puedas compartir tu entusiasmo, intercambiar experiencias y
+        conectarte con otros coleccionistas de todo el mundo. Nos
+        enorgullece ofrecer un servicio personalizado y atención al cliente
+        excepcional, porque creemos que cada carta tiene una historia que
+        contar y cada coleccionista merece una experiencia de compra única y
+        satisfactoria.
+        Desde nuestros modestos comienzos hasta convertirnos en uno de los
+        destinos más confiables para los entusiastas del coleccionismo,
+        hemos mantenido nuestro compromiso con la calidad, la autenticidad y
+        la pasión en todo lo que hacemos. Ya sea que estés buscando esa
+        carta específica para completar tu colección o simplemente quieras
+        explorar el vasto universo de las cartas coleccionables, estamos
+        aquí para ayudarte a hacer realidad tus sueños de coleccionismo.
+        ¡Únete a nuestra comunidad hoy y descubre lo que nos hace diferentes
+        en el mundo de las cartas coleccionables!"
+      </p>
+    </section>
+    <section id="catalogo">
+      <h1>Catálogo</h1>
+      <div class="slider-frame">
+        <ul>
+          <li> <img src="images/Pokemon/BaseSet/Charmander.jpeg" alt="img1"> </li>
+          <li> <img src="images/Pokemon/BaseSet/Chansey.jpeg" alt="img2"> </li>
+          <li> <img src="images/Pokemon/BaseSet/Abra.jpeg" alt="img3"></li>
+          <li> <img src="images/Pokemon/BaseSet/Charmeleon.jpeg" alt="img4"></li>
+          <li> <img src="images/Pokemon/BaseSet/Dewgong.jpeg" alt="img5"></li>
+        </ul>
+      </div>
+      <h3>Como Comprar:</h3>
+      <p>
+        ¿Colocamos aqui un texto explicativo ?
+      </p>
+    </section>
+
+    
+      </div>
+        <section id="contacto">
+          <h1>Contactanos</h1>
+          <div class="container">
+      
+            <form id="formulario"></form>
+            <div>
+              <label for="nombreDeUsuario">Nombre de Usuario</label>
+              <i class="fas fa-user"></i>
+              <input
+              type="text"
+              name="username"
+              id="Nombre-de-Usuario"
+              placeholder="Juan Perez"
+              />              
+              <i class="fas fa-exclamation-circle failure-icon"></i>
+              <i class="far fa-check-circle success-icon"></i>
+              
+              <div class="error"></div>              
+            </div>
+            <div>
+              <label for="correoElectronico">Correo Electrónico</label>
+              <i class="far fa-envelope"></i>
+              
+              <input
+              type="email"
+              name="email"
+              id="correo-electrónico"
+              placeholder="abc@gmail.com"
+              />
+              
+              <i class="fas fa-exclamation-circle failure-icon"></i>
+              <i class="far fa-check-circle success-icon"></i>
+              
+              <div class="error"></div>
+              
+            </div>
+            <!--   Entrada de contraseña -->
+            
+            <div>
+              <label for="password">Mensaje</label>
+              <i class="fas fa-pencil"></i>
+              
+              <input
+              type="text"
+              name="Mensaje"
+              id="mensaje"
+              placeholder="Ingresar su consulta"
+              />
+              
+              <i class="fas fa-exclamation-circle failure-icon"></i>
+              <i class="far fa-check-circle success-icon"></i>
+              
+              <div class="error"></div>
+              
+            </div>
+          <!-- <script>
+            function validarFormulario() {
+              const nombre = document.getElementById("nombre").value;
+              const email = document.getElementById("email").value;
+              
+              if (nombre === "" || email === "") {
+                alert("Por favor, completa todos los campos obligatorios.");
+                return false;
+              }
+              return true;
+            }
+          </script>
+          <form action=alert "mensaje enviado" method="post" onsubmit="return validarFormulario()">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea><br>
+            
+            <input type="submit" value="Enviar">
+          </form> -->
+          <!-- <input type="email" name="correo" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required> -->
+        </section>
+      </div>
+    </main>
+    <footer>
+      <a class="nav-brand" href="#">
+        <img class="logonav" src="logos/tcgCard.png" alt="logoimg">
+        <!-- <span class="text-warning">TCG Gamu!</span> -->
+      </a>
+      <p  style="font-size: smaller; text-align: center"> --- Website made by GroupCaC 2024 --- </p>
+    </footer>
+  </body>
+  </html>
+ 
