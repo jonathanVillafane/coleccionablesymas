@@ -44,6 +44,7 @@ a[class="redes"]{
     background-color: cadetblue;
 }
 div{border: black;}
+
 /* Slider*/
 
 .slider-frame {
@@ -83,6 +84,14 @@ div{border: black;}
     75% {margin-left: -300;}
     100% {margin-left: -300;}
 }   */
+formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+  }
 /* Caja de texto */
 .cajaTexto{
     background-color: #8acac0;
