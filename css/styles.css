@@ -12,10 +12,9 @@ div.sticky {
   font-size: 20px;
 }
 h1{
-    text-align: center;
+    font-family: "Rowdies", sans-serif;
+    text-align:left ;
     font-weight: bolder;
-    font-style: italic;
-    background-color: rgb(78, 128, 194);
     padding: 30px;
 }
 
@@ -26,11 +25,19 @@ h1{
     font-size: larger;
     font-weight: bolder;
 }
-
+#logotitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    font-style:italic;
+    font-size: 3vh;
+    letter-spacing: 3px;
+    color: #f8f7fa;
+}
 /* Navegador - Estilos */
 .logonav{
     width: 60px;
     height: 60px;
+    margin-right: 10px;
 }
 a[class ="nav-link active"]{
     font-weight: bolder;
@@ -38,18 +45,22 @@ a[class ="nav-link active"]{
 
 a[class="redes"]{
     text-decoration: none;
+    color: #ba2711;
+    font-weight: 200;
+}
+.rednav{
+    background-color: #dfdbe5e4;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.nav-item:hover{
-    background-color: cadetblue;
+#enlaces>.nav-item:hover{
+    background-color: #df7317;  
 }
 
 /* Sliders */
-
-img{
-    width: 50vh;
-    height: 50vh;
-    margin: 2em;
+.slider-item{
+    width: 100%;
 }
 .slider-container {
     display: flex;
@@ -74,17 +85,41 @@ img{
     padding: 1em;
     margin: 1em;
 }
+/* Sección - ¿Quienes somos? */
+#quienesomos{
+    padding: 4%;
+    padding-right: 2%;
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+/* ¿Quiénes somos? - Nuestro equipo */
+.team-img-box{
+    overflow:visible;
+}
+.row-3>img{
+    margin: 5px;
+    width: 100%;
+}
+.img-team-item > img{
+    border-radius: 20%;
+    width: fit-content;
+}
+.team-card-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
 
 /* Pie de la página */
 footer{
-    /* background-color: #25b7e0;
-    width: 90%; */
-    background-color:#09b8b8;
+    background-color: #105586;
     padding: 10px;
     text-align: center;
+    font-size: smaller;
+    color: #DFDBE5;
 }
-/*He añadido algunos estilos en el div de la caja de texto
-y he cambiado de color en footer*/
 
 p > footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -93,3 +128,19 @@ p > footer {
     text-align: center;
     justify-content: space-around;
 }
+
+.siguered>img{
+    width: min-content;
+}
+.siguered>h3{
+    color: #e9deded0;
+    padding: 10px;
+    margin: 10px;
+    font-size: small;
+}
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
