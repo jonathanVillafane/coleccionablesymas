@@ -209,9 +209,81 @@
           </div>
         </div>
       </section>
+      
       <section id="contacto">
+        <!-- Contactanos -- Form de contacto --------------------------------------------------------------------------------- -->
         <div class="contactobox">
           <h1>Contactanos</h1>
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mwkgzyjk" method="post">
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <label for="full-name">Nombre y Apellido:</label>
+                  </td> 
+                  <td>
+                    <input type="text" name="name" id="full-name" placeholder="Ej: Juan Perez" required style="width: 100%;">
+                  </td>
+               </tr> 
+               <tr>
+                <td>
+                  <label for="email-address">Correo electrónico: </label>
+                </td>
+                <td>
+                  <input type="email" name="email" id="email-address" placeholder="Ej; correo@gmail.com" required style="width: 100%;">
+                </td>
+               </tr>
+               <tr>
+                <td>
+                  <label for="tema">Temas: </label>
+                </td>
+                <td>
+                  <select name="Tema" id="tema" required="" style="width: 100%;">
+                    <option value="0" selected disabled>Seleccione el tema</option>
+                    <option value="1">Cartas</option>
+                    <option value="2">Albums</option>
+                    <option value="3">Stickers</option>
+                    <option value="4">Otros...</option>
+                  </select>
+                </td>
+               </tr>
+               <tr>
+                <td>
+                  <label for="message">Mensaje:</label>
+                </td>
+                <td>
+                  <textarea rows="5" name="message" id="message" placeholder="Ingrese aquí su consulta......" required style="width: 100%;"></textarea>
+                </td>
+               </tr>
+               <tr>
+                <td colspan="2" style="text-align: right;">
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                  <input type="button" onclick="validar()" value="Enviar">
+                </td>
+               </tr>
+              </tbody>
+            </table>
+          </form>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Validación de Formulario</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Falta completar con un dato válido: 
+                  <span id="error-form" style="color:red;font-weight: bold;"></span>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>          
+            </div>
+          </div>
+
         </div>
       </section>
   </main>
@@ -230,5 +302,6 @@
     <p>Copyright 2024 © <strong> TCG Gamu!</strong> - Todos los derechos reservados.</p>
     <p>Diseñado por grupo 11- Comisión 24183 </p>
   </footer> 
+<script src="scripts\contactos.js"> </script>
 </body>
 </html>
