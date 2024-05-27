@@ -86,21 +86,6 @@ div{border: black;}
     /* height: 100%; */
     /* aspect-ratio: 16/9; */
 } 
-/*@media (min-width:768px ){
-    .slider-frame img{
-        height: 550px;
-    } 
-}*/
-/* @keyframes  slide {
-    0% {margin-left: 0;} 
-    20% {margin-left: 0;}
-    25% {margin-left: -100;}
-    45% {margin-left: -100;}
-    50% {margin-left: -200;}
-    70% {margin-left: -200;}
-    75% {margin-left: -300;}
-    100% {margin-left: -300;}
-}   */
 formulario {
     display: flex;
     flex-direction: column;
