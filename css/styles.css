@@ -57,8 +57,69 @@ a[class="redes"]{
 #enlaces>.nav-item:hover{
     background-color: #df7317;
 }
+header{
+    padding-top: 9em;
+}
+
+
+
+/* Inicio - Bienvenidos--------------------------------------------------------------------------- */
+#bienvenidos>h2{
+text-align: center;
+animation: floating 3s infinite ease-in-out;
+margin-bottom: 5vh;
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }  
+}  
+
+#bienvenidos>h1{
+    text-align: center;
+    font-size: 9vh;
+    color: #d88014;
+    
+}
 
 /* Sliders -------------------------------------------------------------------------------------------------------------------------- */
+html, body {
+      position: relative;
+      height: 100%;
+    }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+swiper-container {
+    width: 80%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+  }
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0002, #0004);
+  }
+
+/* .carouselbox{
+    min-width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.457);
+}
 .slider-item{
     width: 100%;
 }
@@ -72,13 +133,14 @@ a[class="redes"]{
   
   .slider-container img {
     /*flex: 0 0 100%;*/
-    flex: 1 0 auto;
+    /* flex: 1 0 auto;
     margin: 0 50px;
     width: 100%;
     object-fit: cover;
     scroll-snap-align: center;
 
-  }
+  } */
+
 /* Caja de texto */
 .cajaTexto{
     background-color: #8acac0;
