@@ -113,34 +113,6 @@ swiper-slide img {
     -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0002, #0004);
   }
 
-/* .carouselbox{
-    min-width: 950px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.457);
-}
-.slider-item{
-    width: 100%;
-}
-.slider-container {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-  }
-  
-  .slider-container img {
-    /*flex: 0 0 100%;*/
-    /* flex: 1 0 auto;
-    margin: 0 50px;
-    width: 100%;
-    object-fit: cover;
-    scroll-snap-align: center;
-
-  } */
-
 /* Caja de texto */
 .cajaTexto{
     background-color: #8acac0;
@@ -195,7 +167,13 @@ swiper-slide img {
     font-stretch: expanded;
     line-height: 2em;
 }
-
+/* Contactanos - Formulario de contacto --------------------------------------------------------------------------------- */
+/* .contactobox {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align:justify; */
+} */
 /* Footer - Pie de la página --------------------------------------------------------------------------------- */
 footer{
     background-color: #105586;
