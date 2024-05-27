@@ -5,10 +5,8 @@ function validar(){
     var mail = document.getElementById("email-address")
     var carta = document.getElementById("tema")
     var msg = document.getElementById("message")
-
+    var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), { keyboard: false })
    if(nomape.value !== "" && mail.value !== ""  && tema.value > 0 && msg.value !== ""){
-        var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), { keyboard: false })
-        
         if(validarEmail(mail.value)){
             var frm = document.getElementById("fs-frm")
             frm.submit()
