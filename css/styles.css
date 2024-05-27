@@ -55,100 +55,148 @@ a[class="redes"]{
 }
 
 #enlaces>.nav-item:hover{
-    background-color: #df7317;  
+    background-color: #df7317;
 }
-div{border: black;}
+header{
+    padding-top: 9em;
+}
 
-/* Sliders */
+
+
+/* Inicio - Bienvenidos--------------------------------------------------------------------------- */
+#bienvenidos>h2{
+text-align: center;
+animation: floating 3s infinite ease-in-out;
+margin-bottom: 5vh;
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }  
+}  
+
+#bienvenidos>h1{
+    text-align: center;
+    font-size: 9vh;
+    color: #d88014;
+    
+}
+
+/* Sliders -------------------------------------------------------------------------------------------------------------------------- */
+html, body {
+      position: relative;
+      height: 100%;
+    }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+swiper-container {
+    width: 80%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+  }
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0002, #0004);
+  }
+
+/* .carouselbox{
+    min-width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.457);
+}
 .slider-item{
     width: 100%;
 }
 .slider-container {
     display: flex;
     width: 100%;
-    height: 100%;
-    margin: 0%;
-    overflow: hidden; 
-} 
-.slider-frame ul {
-    display:flex;
-    padding:0;
-    /* width: auto; */
-    /* flex-wrap: nowrap; */
-    /* animation: slide 15s infinite alternate ease-in-out; */
-}
-.slider-frame li {
-    width: 300%;
-    /* list-style: none; */
-}
-.slider-frame img {
-    width: 100%;
-    /* height: 100%; */
-    /* aspect-ratio: 16/9; */
-} 
-/*@media (min-width:768px ){
-    .slider-frame img{
-        height: 550px;
-    } 
-}*/
-/* @keyframes  slide {
-    0% {margin-left: 0;} 
-    20% {margin-left: 0;}
-    25% {margin-left: -100;}
-    45% {margin-left: -100;}
-    50% {margin-left: -200;}
-    70% {margin-left: -200;}
-    75% {margin-left: -300;}
-    100% {margin-left: -300;}
-}   */
-formulario {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 400px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 50px;
+    height: 100vh;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
   }
+  
+  .slider-container img {
+    /*flex: 0 0 100%;*/
+    /* flex: 1 0 auto;
+    margin: 0 50px;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+
+  } */
+
 /* Caja de texto */
 .cajaTexto{
     background-color: #8acac0;
     padding: 1em;
     margin: 1em;
-    text-align: justify;
 }
-p {
-    /* background-color: #6fa0af; */
-    padding: 1em;
-    margin: 1em;
-    text-align: justify;
-}
-
-/* Sección - ¿Quienes somos? */
+/* Sección - ¿Quienes somos? ------------------------------------------------------------------------------------------------------------------------------*/
 #quienesomos{
     padding: 4%;
     padding-right: 2%;
     background-color: #DFDBE5;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
+/* ¿Quiénes somos? - Nuestro equipo */
+.teamtitulo{
+    color: #691491;
+    font-style: italic;
+}
 .team-img-box{
     overflow:visible;
 }
-.row-3>img{
+.imageteam>img{
     margin: 5px;
     width: 100%;
 }
 .img-team-item > img{
     border-radius: 20%;
-    width: fit-content;
+    max-width: 100%;
+    max-height: 100%;
+    height: 30vh;
+    object-fit: cover;
 }
 .team-card-box{
     display: flex;
     justify-content: center;
     text-align: center;
-
+}
+/* Texto de ¿Quiénes somos? */
+.qsdetalles-box>p{
+    line-height: 2em;
+    text-align: justify;
+    font-size: 100%;
+    margin: 5%;
+}
+.frase{
+    text-align: center;
+    color: #ba2711;
+}
+.frase>p{
+    font-family: "Rowdies", sans-serif;
+    font-size: larger;
+    font-stretch: expanded;
+    line-height: 2em;
 }
 
-/* Pie de la página */
+/* Footer - Pie de la página --------------------------------------------------------------------------------- */
 footer{
     background-color: #105586;
     padding: 10px;
