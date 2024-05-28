@@ -228,3 +228,45 @@ p > footer {
     margin: 0;
     padding: 0;
 } */
+
+/*Los estilos de la parte que agregue.*/
+
+#precio{
+    color:green;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#muestrarioCarta{
+    justify-content: space-evenly;
+    margin-top: 20px;
+    text-align: center;
+    height: auto;
+    width: 300px;
+    grid-area: muestrario;
+}
+
+#detalle{
+    justify-self: center;
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+    margin-top: 50px;
+    padding: 2px;
+    height: 200px;
+    width: 400px;
+    grid-area: detalle;
+}
+
+#container{
+    overflow:auto;
+    justify-content: space-evenly;
+    width: 1000px;
+    display: grid;
+    background-color: whitesmoke;
+    grid-template-columns: repeat(6,1fr);
+
+    grid-template-areas: "muestrario muestrario detalle detalle detalle detalle";
+    
+}
